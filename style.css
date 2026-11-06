@@ -7,12 +7,15 @@
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
 
 .profile-photo {
-    width: 120px;
-    height: 120px;
+    width: 165px;
+    height: 165px;
     object-fit: cover;
+    object-position: center;
     border-radius: 50%;
-    border: 3px solid #a99bff;
-    box-shadow: 0 0 20px #72ceff88;
+    border: 4px solid #a99bff;
+    box-shadow:
+        0 0 15px #a99bff,
+        0 0 35px #72ceff88;
     position: relative;
     z-index: 5;
 }
